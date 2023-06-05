@@ -9,7 +9,7 @@ function App() {
     <>
     <GlobalStyle/>
       <Header />
-      <Container />
+      <Container /> 
     </>
   );
 }
