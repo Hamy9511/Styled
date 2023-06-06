@@ -23,8 +23,8 @@ const BtnHeader = styled.a`
   margin: 0 10px;
   font-weight: 600;
   border: 2px solid white;
-  color: ${(props) => !props.primary ? "white" : colorPrimario};  //usamos operador ternario
-  background: ${(primary) => !primary ? "transparent" : "white"};
+  color: ${(props) => props.primary ? "white" : colorPrimario};  //usamos operador ternario
+  background: ${(props) => props.primary ? "transparent" : "white"};
 `
 const Header = () => {
   return (
@@ -33,10 +33,10 @@ const Header = () => {
         <Logo  src={logo} alt="Logo Smart Bank" />
         
         <div>
-        <BtnHeader primary href="https://google.com">
+        <BtnHeader  href="https://google.com">
           Ayuda
         </BtnHeader>
-        <BtnHeader href="https://google.com">
+        <BtnHeader primary href="https://google.com">
           Salir
         </BtnHeader>
       </div>
