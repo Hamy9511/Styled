@@ -6,7 +6,7 @@ import dinero from "../../assets/images/dinero.svg";
 import {Icono, Box, Btn, Saldo, Detalle } from "../UI/index.js";
 import styled from "styled-components";
 
-const IconoMargin = styled(icono)`
+const IconoMargin = styled(Icono)`
 margin-top: 2px;
 `
 
