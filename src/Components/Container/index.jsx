@@ -4,6 +4,8 @@ import styled from "styled-components";
 import Title from "../Title";
 import Account from "../Account";
 
+import List from "../List/List";
+
 const StyledContainer = styled.div`
 background-color: #f1f1f1;
 min-height: 90vh;
@@ -26,6 +28,7 @@ const Container = () => {
       <Title>Smart Bank</Title>
       <StyleContent>
         <Account />
+        <List/>
       </StyleContent>
     </StyledContainer>
   );
