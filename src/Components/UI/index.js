@@ -4,6 +4,9 @@ export const Icono = styled.img`
   height: 25px;
   width: 25px;
 `
+export const Iconotema = styled(Icono)`
+filter: ${({theme}) => theme.filter};
+`
 export const Btn = styled.button`
 margin: 15px auto 0px auto;
   display: block;
